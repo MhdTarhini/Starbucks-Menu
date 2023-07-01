@@ -152,3 +152,15 @@
     gap: 15px;
     margin-bottom: 15px;
 }
+.footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100px;
+    background-color: rgb(209, 209, 209);
+}
+
+.contact-us {
+    font-weight: 700;
+}
