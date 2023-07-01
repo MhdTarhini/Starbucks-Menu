@@ -1,3 +1,8 @@
+* {
+    font-family: SoDoSans, Helvetica, Arial, sans-serif;
+    /* i find the font-familly in the original menu view source or inspect */
+    /* https: //stackoverflow.com/questions/10041706/applying-a-single-font-to-an-entire-website-with-css */
+}
 .menu-container {
     width: 1000px;
 }
@@ -54,8 +59,7 @@
     margin-right: 100px;
 }
 
-.drinks-1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.drinks-1 {
     float: right;
     color: rgb(35, 35, 35);
     margin-left: 30px;
@@ -72,7 +76,6 @@
         margin-top: 85px;
         margin-left: 30px;
         font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
     }
     
@@ -85,7 +88,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
     }
     
@@ -98,7 +100,6 @@
         margin-top: 85px;
         margin-left: 30px;
         font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
     }
     
@@ -111,7 +112,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
 }
 
@@ -123,7 +123,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(35, 35, 35);
 }
 
@@ -142,7 +141,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
     }
     
@@ -155,7 +153,6 @@
         margin-top: 85px;
         margin-left: 30px;
         font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
 }
 
@@ -168,7 +165,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
     }
     
@@ -181,7 +177,6 @@
         margin-top: 85px;
         margin-left: 30px;
         font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
 }
 
@@ -194,7 +189,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(35, 35, 35);
 }
 
@@ -207,7 +201,6 @@
     margin-top: 85px;
     margin-left: 30px;
     font-weight: 550;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(35, 35, 35);
 }
 
