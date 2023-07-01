@@ -1,0 +1,122 @@
+.navbar{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+.title{
+    position: absolute;
+    top:0px;
+    left: 120px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lang{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    color: green;
+}
+.right-bar{
+    position: relative;
+    top: 50px;
+    margin-right: 20px
+}
+.first-list{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.first-list li{
+    margin-bottom: 10px;
+}
+.second-list{
+    list-style: none;
+}
+.second-list li{
+    margin-bottom: 10px;
+}
+.items{
+    position: relative;
+    left: 400px;
+    bottom: 350px;
+    overflow: auto;
+    
+}
+.cat-drinks-1{
+    float: left;
+    top: 100px;
+    margin-right: 100px;
+}
+.drinks-1{
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.drinks-3 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.drinks-5 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.cat-drinks-3 {
+    float: left;
+    margin-right: 120px;
+}
+.cat-drinks-5 {
+    float: left;
+    margin-right: 150px;
+}
+
+
+
+.cat-food-1 {
+    float: left;
+    top: 100px;
+    margin-right: 150px;
+}
+
+.food-1 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.food-3 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.food-5 {
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.cat-food-3 {
+    float: left;
+    margin-right: 100px;
+}
+
+.cat-food-5 {
+    float: left;
+    margin-right: 170px;
+}
+
+.footer{
+    position: relative; 
+    bottom: 100px;
+     height: 100px; 
+     background-color: rgb(168, 168, 168);
+}
+.social-media{
+    margin: 20px;
+}
+.contact-us{
+    margin: 20px;
+}
