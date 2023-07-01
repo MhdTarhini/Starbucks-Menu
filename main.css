@@ -17,17 +17,20 @@
     right: 0;
     color: green;
 }
-.right-bar{
-    position: relative;
-    top: 50px;
-    margin-right: 20px
+.categorys {
+    height: 1600px;
+}
+
+.right-bar {
+    padding: 40px;
+    width: 300px;
 }
 .first-list{
     list-style: none;
     margin-bottom: 50px;
 }
 .first-list li{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .second-list{
     list-style: none;
@@ -38,7 +41,7 @@
 .items{
     position: relative;
     left: 400px;
-    bottom: 350px;
+    bottom: 600px;
     overflow: auto;
     
 }
@@ -108,10 +111,9 @@
     margin-right: 170px;
 }
 
-.footer{
-    position: relative; 
-    bottom: 100px;
-     height: 100px; 
+.footer {
+    height: 100px;
+        padding: 20px;
      background-color: rgb(168, 168, 168);
 }
 .social-media{
