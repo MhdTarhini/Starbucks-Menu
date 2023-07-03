@@ -34,18 +34,25 @@
     padding: 40px;
     width: 300px;
 }
-.first-list{
+.drinks-list {
     list-style: none;
     margin-bottom: 50px;
 }
-.first-list li{
+.drinks-list li {
     margin-bottom: 20px;
 }
-.second-list{
+.drinks-list li:first-child {
+    font-weight: 600;
+}
+
+.foods-list {
     list-style: none;
 }
-.second-list li{
+.foods-list li {
     margin-bottom: 10px;
+}
+.foods-list li:first-child {
+    font-weight: 600;
 }
 .items{
     position: relative;
@@ -54,17 +61,22 @@
     overflow: auto;
     
 }
-
+.menu-title {
+    font-weight: 600;
+}
 img {
     width: 200px;
     border-radius: 50%
+}
+.drink-title {
+    font-size: 20px
 }
 .cat-drinks-1{
     float: left;
     margin-right: 100px;
 }
 
-.drinks-1 {
+.drinks {
     float: right;
     color: rgb(35, 35, 35);
     margin-left: 30px;
@@ -72,63 +84,27 @@ img {
         margin-top: 85px;
     }
     
-    .cat-drinks-2 {
-        float: left;
-    }
-    
-    .drinks-2 {
-        float: right;
-        margin-top: 85px;
-        margin-left: 30px;
-        font-weight: 550;
-        color: rgb(35, 35, 35);
-    }
-    
-    .cat-drinks-3 {
-        float: left;
-        margin-right: 120px;
+.cat-drinks-2 {
+    float: left;
 }
-.drinks-3 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-        color: rgb(35, 35, 35);
-    }
     
-    .cat-drinks-4 {
-        float: left;
-    }
-    
-    .drinks-4 {
-        float: right;
-        margin-top: 85px;
-        margin-left: 30px;
-        font-weight: 550;
-        color: rgb(35, 35, 35);
-    }
-    
-    .cat-drinks-5 {
-        float: left;
-        margin-right: 150px;
+.cat-drinks-3 {
+    float: left;
+    margin-right: 120px;
 }
-.drinks-5 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-        color: rgb(35, 35, 35);
+    
+.cat-drinks-4 {
+    float: left;
+}
+    
+    
+.cat-drinks-5 {
+    float: left;
+    margin-right: 150px;
 }
 
 .cat-drinks-6 {
     float: left;
-}
-.drinks-6 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-    color: rgb(35, 35, 35);
 }
 
 .cat-foods {
@@ -140,8 +116,11 @@ img {
     top: 100px;
     margin-right: 150px;
 }
+.food-title {
+    font-size: 20px
+}
 
-.food-1 {
+.food {
     float: right;
     margin-top: 85px;
     margin-left: 30px;
@@ -149,64 +128,28 @@ img {
         color: rgb(35, 35, 35);
     }
     
-    .cat-food-2 {
-        float: left;
-    }
-    
-    .food-2 {
-        float: right;
-        margin-top: 85px;
-        margin-left: 30px;
-        font-weight: 550;
-        color: rgb(35, 35, 35);
+.cat-food-2 {
+    float: left;
 }
+    
 
 .cat-food-3 {
     float: left;
     margin-right: 100px;
 }
-.food-3 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-        color: rgb(35, 35, 35);
-    }
-    
+
     .cat-food-4 {
         float: left;
     }
     
-    .food-4 {
-        float: right;
-        margin-top: 85px;
-        margin-left: 30px;
-        font-weight: 550;
-        color: rgb(35, 35, 35);
-}
 
 .cat-food-5 {
     float: left;
     margin-right: 170px;
 }
-.food-5 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-        color: rgb(35, 35, 35);
-}
 
 .cat-food-6 {
     float: left;
-}
-
-.food-6 {
-    float: right;
-    margin-top: 85px;
-    margin-left: 30px;
-    font-weight: 550;
-    color: rgb(35, 35, 35);
 }
 
 .loc {

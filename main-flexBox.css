@@ -36,25 +36,31 @@
     width: 600px;
 }
 
-.first-list {
+.drinks-list {
     list-style: none;
     margin-bottom: 50px;
 }
 
-.first-list li {
+.drinks-list li {
     cursor: pointer;
     margin-bottom: 20px;
     font-size: 15px;
 }
+.drinks-list li:first-child {
+    font-weight: 600;
+}
 
-.second-list {
+.foods-list {
     list-style: none;
 }
 
-.second-list li {
+.foods-list li {
     cursor: pointer;
     margin-bottom: 20px;
     font-size: 15px;
+}
+.foods-list li:first-child {
+    font-weight: 600;
 }
 
 .items {
@@ -81,13 +87,13 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.drinks-1 {
+.drinks {
     font-weight: 550;
     color: rgb(35, 35, 35);
     cursor: pointer;
 }
 
-.drinks-1:hover {
+.drinks:hover {
     border-bottom: 1px solid orange;
 }
 
@@ -97,15 +103,6 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.drinks-2 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.drinks-2:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-drinks-3 {
     flex-basis: 50%;
@@ -114,30 +111,12 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.drinks-3 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.drinks-3:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-drinks-4 {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 15px;
-}
-.drinks-4 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.drinks-4:hover {
-    border-bottom: 1px solid orange;
 }
 
 .cat-drinks-5 {
@@ -147,30 +126,12 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.drinks-5 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.drinks-5:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-drinks-6 {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 15px;
-}
-.drinks-6 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.drinks-6:hover {
-    border-bottom: 1px solid orange;
 }
 
 .foods-items {
@@ -185,13 +146,13 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.food-1 {
+.food {
     font-weight: 550;
     color: rgb(35, 35, 35);
     cursor: pointer;
 }
 
-.food-1:hover {
+.food:hover {
     border-bottom: 1px solid orange;
 }
 
@@ -201,15 +162,6 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.food-2 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.food-2:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-food-3 {
     flex-basis: 50%;
@@ -218,30 +170,12 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.food-3 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.food-3:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-food-4 {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 15px;
-}
-.food-4 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.food-4:hover {
-    border-bottom: 1px solid orange;
 }
 
 .cat-food-5 {
@@ -251,15 +185,6 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.food-5 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
-
-.food-5:hover {
-    border-bottom: 1px solid orange;
-}
 
 .cat-food-6 {
     display: flex;
@@ -267,15 +192,7 @@ img {
     gap: 15px;
     margin-bottom: 15px;
 }
-.food-6 {
-    font-weight: 550;
-    color: rgb(35, 35, 35);
-    cursor: pointer;
-}
 
-.food-6:hover {
-    border-bottom: 1px solid orange;
-}
 .footer {
     padding: 20px;
     display: flex;
