@@ -54,6 +54,11 @@
     overflow: auto;
     
 }
+
+img {
+    width: 200px;
+    border-radius: 50%
+}
 .cat-drinks-1{
     float: left;
     margin-right: 100px;
