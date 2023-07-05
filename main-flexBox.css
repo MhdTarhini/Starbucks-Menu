@@ -33,35 +33,27 @@
 
 .right-bar {
     padding: 30px;
-    width: 600px;
 }
 
 .drinks-list {
     list-style: none;
     margin-bottom: 50px;
+    width: 200px;
 }
-
-.drinks-list li {
-    cursor: pointer;
-    margin-bottom: 20px;
-    font-size: 15px;
-}
-.drinks-list li:first-child {
-    font-weight: 600;
-}
-
 .foods-list {
     list-style: none;
+    width: 200px;
 }
 
-.foods-list li {
+.list-flex li {
     cursor: pointer;
     margin-bottom: 20px;
     font-size: 15px;
 }
-.foods-list li:first-child {
+.list-flex li:first-child {
     font-weight: 600;
 }
+
 
 .items {
     margin-top: 20px;
@@ -80,7 +72,7 @@ img {
     flex-wrap: wrap;
 }
 
-.cat-drinks-1 {
+.item-flex {
     flex-basis: 50%;
     display: flex;
     align-items: center;
@@ -97,55 +89,11 @@ img {
     border-bottom: 1px solid orange;
 }
 
-.cat-drinks-2 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-drinks-3 {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-drinks-4 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-drinks-5 {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-drinks-6 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
 .foods-items {
     display: flex;
     flex-wrap: wrap;
 }
 
-.cat-food-1 {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
 .food {
     font-weight: 550;
     color: rgb(35, 35, 35);
@@ -156,42 +104,6 @@ img {
     border-bottom: 1px solid orange;
 }
 
-.cat-food-2 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-food-3 {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-food-4 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-food-5 {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.cat-food-6 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
 
 .footer {
     padding: 20px;
